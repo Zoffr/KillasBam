@@ -1,5 +1,5 @@
 ## Interface: 11200
-## Title: |cff33ffccKillas|cffffffffBam
+## Title: KillasBam
 ## Author: Killas, 2016
 ## Notes: BamMod
 ## Version: 0.1
