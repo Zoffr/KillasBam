@@ -4,9 +4,9 @@ local backdrop = {
 	insets = {left = 5, right = 5, top = 5, bottom = 5},
 }
 
-Hook_ChatFrame_OnEvent = ChatFrame_OnEvent
+KbHook_ChatFrame_OnEvent = ChatFrame_OnEvent
 function ChatFrame_OnEvent(event)
-	Hook_ChatFrame_OnEvent(event);
+	KbHook_ChatFrame_OnEvent(event);
 end
 
 KillasBam = CreateFrame("Frame",nil,UIParent)
