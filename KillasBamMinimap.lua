@@ -1,4 +1,4 @@
-KillasBam.minimapButton = CreateFrame('Button', "ShaguDB_Minimap", Minimap)
+KillasBam.minimapButton = CreateFrame('Button', "KillasBam_Minimap", Minimap)
 KillasBam.minimapButton:RegisterEvent("PLAYER_ENTERING_WORLD");
 
 KillasBam.minimapButton:SetScript("OnEvent", function(self, event, ...)
