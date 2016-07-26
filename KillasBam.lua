@@ -173,7 +173,7 @@ KillasBam.title.dtext:SetFontObject(GameFontWhite)
 KillasBam.title.dtext:SetFont("Fonts\\MORPHEUS.TTF", 10, "OUTLINE")
 KillasBam.title.dtext:SetPoint("BOTTOM", 0, 30)
 KillasBam.title.dtext:SetTextColor(1,1,1,.75)
-KillasBam.title.dtext:SetText("Version 0.1 - WoW PATCH 1.12.1")
+KillasBam.title.dtext:SetText("Version 0.2 - WoW PATCH 1.12.1")
 
 KillasBam.closeButton = CreateFrame("Button", nil, KillasBam.title, "UIPanelCloseButton")
 KillasBam.closeButton:SetWidth(30)
