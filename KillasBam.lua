@@ -1,3 +1,29 @@
+SLASH_KILLASBAM1, SLASH_KILLASBAM2, SLASH_KILLASBAM3 = "/killasbam", "/kb", "/bam"
+SlashCmdList["KILLASBAM"] = function(message)
+	DEFAULT_CHAT_FRAME:AddMessage("--KillasBam records--")
+	if not KillasBamRecord then 
+		DEFAULT_CHAT_FRAME:AddMessage("no records :(")
+	else
+		for title,value in pairsByKeys(KillasBamRecord) do
+			DEFAULT_CHAT_FRAME:AddMessage(title..": "..value);
+		end
+	end
+end
+
+function pairsByKeys (t, f)
+	local a = {}
+		for n in pairs(t) do table.insert(a, n) end
+		table.sort(a, f)
+		local i = 0      -- iterator variable
+		local iter = function ()   -- iterator function
+			i = i + 1
+			if a[i] == nil then return nil
+			else return a[i], t[a[i]]
+			end
+		end
+	return iter
+end
+
 local backdrop = {
 	bgFile = "Interface\\Tooltips\\UI-Tooltip-Background", tile = true, tileSize = 32,
 	edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border", edgeSize = 16,
