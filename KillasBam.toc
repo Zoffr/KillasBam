@@ -2,7 +2,7 @@
 ## Title: KillasBam
 ## Author: Killas, 2016
 ## Notes: BamMod
-## Version: 0.1
+## Version: 0.2
 ## SavedVariablesPerCharacter: KillasBamSettings, KillasBamMinimapPosition, KillasBamCrit, KillasBamRecord
 
 # main
