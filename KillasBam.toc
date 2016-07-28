@@ -1,7 +1,7 @@
 ## Interface: 11200
 ## Title: KillasBam
 ## Author: Killas, 2016
-## Notes: BamMod
+## Notes: A fork of ShaguBAM to provide more features
 ## Version: 0.2
 ## SavedVariablesPerCharacter: KillasBamSettings, KillasBamMinimapPosition, KillasBamCrit, KillasBamRecord
 
